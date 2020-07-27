@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	height:100%;
+	width:100vw;
+}
+
+.contents{
+	width:100vw;
+	height:80vh;
+	background-image: url(assorted-vegetable-store-displays-2252584.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.headn{
+	color: #301D7C;
+	font-size:50px;
+	text-align:center;
+	margin-top:12px;	
+}
+
+.listitem{
+		
+}
+.sty{
+	list-style-type:none;}
+
+.sty:before{
+	margin-right:12px;
+	font-size:2.5em;
+	content:"\2022";
+	font-family: Arial, Helvetica, sans-serif;
+}
+.green:before{
+	color:#093;	
+}
+.red:before{
+	color:#C00;
+}
+.orange:before{
+	color:#F90;
+}
+.blue:before{
+	color:#03F;
+}
+
+.pink:before{
+	color:#F0F;
+}
+
+.purple:before{
+	color: #639;
+}
+.yellow:before{
+	color: #FC3;
+}
+.hw{
+	font-size:70px;
+	margin-top:-10px;
+	color:#999;
+	font-weight:-20;
+}
+
+.items{
+	
+	border:1px solid #CCC; 
+	background-color: #FAEDA3;
+	
+}
+.seconds{
+	
+	margin:30px;	
+}
+
+
+
+.flipsing
+{
+	
+margin-top:40px;	
+}
+
+.flipq
+{
+	
+	margin-top:5px;
+	
+}
+.boundary{
+	border:3px solid #093;
+	height:100%;
+	width:22rem;
+	margin-left:8em;
+	margin-right:8rem;
+	box-shadow:4px 4px 4px 4px  #999999;
+}
+
+.imgi{
+	margin:6rem;
+	margin-left:12rem;
+}
+
+.ttl{
+	font-family:"Comic Sans MS", cursive;
+}
+
+
+
+
+@media screen and (max-width:620px)
+{
+	.boundary{
+		width:16rem;	
+		margin-right:1rem;
+		margin-left:2rem;
+		padding:12px;
+		
+	}
+	.imgi{
+		margin:1rem;
+		width:17rem;
+	}
+	
+	
+	.colo{
+		margin-bottom:1rem;
+	}
+	
+	
+	.headn{
+		font-size:30px;
+		
+	}
+}
+.cntimg{
+	width:30%;
+	height:30%;	
+	margin:12px;
+	margin-bottom:-8px;
+}
+
+.cntimgs{
+	width:30%;
+	height:16%;	
+	margin:12px;
+	margin-bottom:-8px;
+	
+}
+
+.backs{
+	
+		
+	min-height:100%;
+	
+}
+
+.lists{
+	padding:20px;
+	font-family: "Comic Sans MS", cursive;
+	font-size:16px;
+	text-align:justify;
+}
+
+.sml{
+	width:70px;
+	height:70px;	
+	
+}
+.task{
+	
+	
+	margin-top:15%;
+	font-size:35px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:500; 
+	color: #FFF;
+	padding:2px;	
+}
+
+
+.task2{
+	
+	margin-top:15px;
+	color: #666;
+	font-size:18px;
+	
+}
+.puts{
+	color: #FFF;
+}
+.types{
+	font-size:16px;	
+	color:#666;
+}
+
+.boundary:hover{
+	border:3px solid #FC3;	
+}
+
+
+.newclass{
+	margin:-2px;
+	color:#FFF;
+	background:url(backs.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height:90vh;
+	
+}
+
+.headers{
+	padding:10px;
+	display: block;
+	font-size:60px;
+	
+	border:6px double  #FFF; 
+	
+	font-family: 'Libre Baskerville', serif;
+}

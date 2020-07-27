@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	height:100%;
+	width:100vw;
+}
+
+.contents{
+	width:100vw;
+	height:80vh;
+	background-image: url(assorted-vegetable-store-displays-2252584.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.headn{
+	color: #301D7C;
+	font-size:50px;
+	text-align:center;
+	margin-top:12px;	
+}
+.sizing{
+	width: 60rem;
+	height: 27rem;
+	align-items: center;
+	align-content: center;
+	margin-top: 40px;
+}
+.blacks{
+	background-color:rgb(0,0,0,0.6);	
+}
+
+.listitem{
+		
+}
+.sty{
+	list-style-type:none;}
+
+.sty:before{
+	margin-right:12px;
+	font-size:2.5em;
+	content:"\2022";
+	font-family: Arial, Helvetica, sans-serif;
+}
+.green:before{
+	color:#093;	
+}
+.red:before{
+	color:#C00;
+}
+.orange:before{
+	color:#F90;
+}
+.blue:before{
+	color:#03F;
+}
+
+.pink:before{
+	color:#F0F;
+}
+
+.purple:before{
+	color: #639;
+}
+.yellow:before{
+	color: #FC3;
+}
+.hw{
+	font-size:70px;
+	margin-top:-10px;
+	color:#999;
+	font-weight:-20;
+}
+
+.items{
+	
+	border:1px solid #CCC; 
+	background-color: #FAEDA3;
+	
+}
+.seconds{
+	margin:30px;	
+}
+
+
+
+.flipsing
+{
+	
+margin-top:40px;	
+}
+
+.flipq
+{	
+	margin-top:5px;
+}
+.boundary{
+	border:3px solid #093;
+	height:93%;
+	width:22rem;
+	margin-left:7em;
+	margin-right:9rem;
+	box-shadow:4px 4px 4px 4px  #000000;
+}
+
+.imgi{
+	margin:6rem;
+	margin-left:12rem;
+}
+
+.ttl{
+	font-family:"Comic Sans MS", cursive;
+}
+
+.cntimgs{
+	width:30%;
+	height:15%;	
+	margin:5px;
+	
+	
+}
+
+.backs{
+	background: url(temp.jpg);
+	background-size:cover;
+	background-repeat:no-repeat	
+	height:100vh;
+}
+
+
+.images{
+	
+}
+
+.lists{
+	padding:15px;
+	font-family: "Comic Sans MS", cursive;
+	font-size:16px;
+	text-align:justify;
+}
+
+.sml{
+	width:70px;
+	height:70px;	
+	
+}
+.task{	
+	margin-top:7%;
+	font-size:35px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:500; 
+	color:#003;
+	padding:2px;	
+}
+
+
+.task2{
+	
+	margin-top:15px;
+	color: #666;
+	font-size:18px;
+	
+}
+.puts{
+	color:#999;
+}
+.types{
+	font-size:16px;	
+	color:#666;
+}
+
+.boundary:hover{
+	border:3px solid #FC3;	
+}
+
+
+.newclass{
+	background: url(backs.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height:100vh;
+	margin-bottom:12px;
+}
+
+.headers{
+	padding:1px;
+	display: block;
+	font-size:60px;
+	width: 32rem;
+	text-align: center;
+	border:6px double  #FFF; 
+	font-family: 'Libre Baskerville', serif;
+}
+
+.table1
+{
+	align-content: center;
+	text-align: left;
+	margin-left: -22px;
+
+}
+
+.yellow{
+	margin-left: -7px;
+}
+
+
+
+@media screen and (max-width:620px)
+{
+	.boundary{
+		width:16rem;	
+		margin-right:1rem;
+		margin-left:3rem;
+		padding:12px;
+		height: 100%;
+		
+	}
+	.imgi{
+		margin:1rem;
+		width:17rem;
+	}
+	
+	
+	.colo{
+		margin-bottom:1rem;
+	}
+	
+	
+	.titl{
+		font-size:30px;
+		color:#FFF;
+		margin-top:12px;
+		
+	}
+
+	.sizing{
+	width: 32rem;
+	height: 20rem;
+	align-items: center;
+	align-content: center;
+	margin-top: 30px;
+	margin-left: -20px;
+	}
+
+	.task
+	{
+		font-size: 22px;
+		text-align: center;
+		margin-left: -12px;
+	}
+	.task2{
+		font-size: 20px;
+		text-align: center;
+		margin-left: -12px;
+	}
+
+	.t2{
+		font-size: 22px;
+		text-align: center;
+		margin:12px;
+	}
+	.puts{
+		font-size: 12px;
+		text-align: center;
+		margin:1px;
+	}
+
+	.sty{
+		font-size: 12px;
+		margin-left: -2px;
+	}
+
+
+	.table1
+    {
+	align-content: center;
+	text-align:center;
+	margin-left: -28px;
+	}
+
+	.yellow,.pink,.purple{
+		margin-left: -17px;
+	}
+
+	.items{
+		width: 15rem;
+		margin-bottom: -6px;
+	}
+	
+	.tests{
+		font-size: 30px;
+	}
+
+
+
+	.headers{
+	padding:1px;
+	display: block;
+	font-size:20px;
+	width: 15rem;
+	text-align: center;
+	border:6px double  #FFF; 
+	font-family: 'Libre Baskerville', serif;
+}
+}

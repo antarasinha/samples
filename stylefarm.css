@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	height:100%;
+	width:100vw;
+/*	background-image: url(macro-shot-of-water-drop-on-green-textile-689326.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;*/
+	background-color:#dddee1;
+	
+}
+
+.headers{
+	padding:10px;
+	display: block;
+	font-size:60px;
+	font-weight: 600;
+	border:7px double  #FFF; 
+	
+	font-family: 'Libre Baskerville', serif;
+}
+
+.topy{
+	font-size:20px;
+	color:#000;
+	margin:30px;
+	margin-top:-50px;
+}
+.qt{
+	margin-right:25px;
+	margin-top:-40px;
+}
+.heads{
+	color:#093;
+	font-family: 'Lobster', cursive;
+	font-size:50px;
+	font-weight:20;
+	text-decoration: none;
+	
+}
+.headings{
+	color:#093;
+	font-family: 'Lobster', cursive;
+	font-size:50px;
+	font-weight:20;
+	text-decoration: none;
+}
+.tee
+{
+	margin-left:4px;
+	margin-top: 54px;
+	background-image: url(man-in-grey-long-sleeved-shirt-planting-rice-2804327.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:60vh;	
+}
+.lefty{
+	margin-left:30px;
+	margin:20px;
+}
+.card{
+	width:30vw;
+	height:40vh;
+	background-color:transparent;
+}
+
+
+
+
+
+.try{
+	width:100vw;
+	height:80vh;
+	background-image:url(display.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+	margin-left:35%;
+	width:30vw;
+}
+.contents{
+		background-image:linear-gradient(palegoldenrod,white,palegoldenrod,palegoldenrod,palegoldenrod);
+}
+
+
+.content{
+	/*background-color:rgba(255,255,255,0.5);*/
+	width:100%;
+	margin-right: 
+	padding:12px;
+	margin:40px;
+	display:inherit;
+		
+	
+}
+
+.cards{
+	/*background-color:#FFF;*/
+	opacity:1px;
+	box-shadow:2px 2px 2px 2px #333333;
+}
+
+@media screen and (max-width:620px){
+	
+	.carding{
+	height:40vh;	
+	}
+	
+	
+}
