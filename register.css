@@ -41,7 +41,8 @@ input{
 }
 
 .cards{
-	 margin: 15%;
+	 margin-top:11%;
+	margin-left:16%;
 	 width: 50rem;
 }
 .bt{
@@ -51,8 +52,9 @@ input{
 @media screen and (max-width:620px){
 
 	.cards{
-	  width:98%;
-	  margin-left: -1px;
+	  width:90%;
+	  margin-left: 0px;
+		margin-right:12px;
 	  margin-top: 35%;
 	  align-content: center;
 	}
