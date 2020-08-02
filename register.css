@@ -54,7 +54,7 @@ input{
 	.cards{
 	  width:90%;
 	  margin-left: 16px;
-		
+		margin-right:-12px;
 	  margin-top: 35%;
 	  align-content: center;
 	}
