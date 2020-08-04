@@ -38,7 +38,7 @@
       </li>
        <li class="nav-item team1  px-3 dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black">
-          Farmers
+          Solutions
         </a>
         <div class="dropdown-menu drops" aria-labelledby="navbarDropdownMenuLink">
          <a class="dropdown-item" href="farmers.html">Our Farmers</a>
@@ -77,7 +77,7 @@
     <div class="card-text">
       <div class="row">
         <div class="col-sm-10 offset-sm-1">
-        <form <script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FMJpw7qmbxb8hE" data-button_text="Pay Now" data-button_theme="rzp-dark-standard"> </script>>
+        <form>
         	
         <div class="form-group m-5">
           <label><h6>फॉर्म नम्बर *</h6></label>
@@ -162,13 +162,17 @@
           
           <label><h6>प्राप्त पंजीयन शुल्क *</h6></label>
           <p><input type="text" name="" class="forming"></p>
-</form>
           <br>
           <div class="text-center">
-		 <form><script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FMJpw7qmbxb8hE" data-button_text="Pay Now" data-button_theme="rzp-dark-standard"> </script></form> 
-            </div>
-
-
+          <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+ Pay Now</button>
+          </div>
+          <br>
+          <div class="text-center">
+          	<button class="btn btn-info btns">Submit</button>
+          </div>
+          </form>
+          <br>
         </div>
         
     </div>
@@ -177,6 +181,33 @@
   </div>
 </div>
 </div>
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel" style="color: #301D7C">Payment Options</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5><input type="checkbox" name="c1">&nbsp;Pay Cash</h5><br>
+        <h5 style="float: left;"> Pay Online Now:</h5> <form style="float: right;"><script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FMJpw7qmbxb8hE" data-button_text="Pay Now" data-button_theme="rzp-dark-standard"> </script></form> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="footer">
     <div class="footer-content">
